@@ -1,0 +1,24 @@
+# 1. Các file rác sinh ra trong quá trình chạy Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Môi trường ảo Anaconda (Cực kỳ quan trọng, tuyệt đối không up)
+dms_env/
+env/
+venv/
+.env
+
+# 3. Các file cấu hình hệ thống của IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# 4. Các file video test dung lượng lớn (Chỉ up code, không up video cá nhân)
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# 5. Các file ẩn sinh ra bởi Hệ điều hành Windows/Mac
+.DS_Store
+Thumbs.db
